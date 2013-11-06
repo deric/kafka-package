@@ -156,8 +156,8 @@ def create_an_deb():
 -m "%s"  \
 --prefix=%s \
 -s %s \
---rpm-user %s \
---rpm-group %s \
+--deb-user %s \
+--deb-group %s \
 --before-install %s \
 --after-install %s \
 --config-files /etc/init.d/kafka-server \
